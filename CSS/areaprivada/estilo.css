@@ -1,0 +1,79 @@
+body {
+    background-color: skyblue;
+}
+
+#meeting {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+    display: block;
+    
+    
+}
+
+
+#contato {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    background-color: rgb(0, 0, 0);
+    transition: color 0.5s,
+    background-color 0.5s;
+    border-radius: 15px;
+
+}
+#contato:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.head-container {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.apresentacao {
+    margin-top: 260px;
+    margin-left: 130px;
+}
+
+.botao {
+    font-size: 15px;
+    font-family: Arial;
+    background-color: #1a8cd8;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.5s,
+    color 0.5s;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;   
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.botao:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+/*
+
+;
+
+    */
